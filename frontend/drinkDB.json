@@ -1,0 +1,45 @@
+drinks = [
+	{
+		title: 'Drink Name',
+		ingredients: ['ing1', 'ing2', 'manualIngredient'],
+		amounts: [3, 1, 0], // Number of shots of each ingredient. Amount of 0 means it will be added manually
+		imgFile: 'drinkName.jpg',
+		link: 'http://thecocktaildb.com/<api link>'
+	},
+	{
+		title: 'Unabomber',
+		ingredients: ['gin', 'vodka', 'triple sec', 'lime juice'],
+		amounts: [1, 2, 0], // amount of 0 means it will be added manually
+		imgFile: 'unabomber.jpg'
+	},
+	{
+		title: 'Speedball',
+		ingredients: ['gin', 'vodka', 'taquila', 'lime juice'],
+		amounts: [1, 2, 0], // amount of 0 means it will be added manually
+		imgFile: 'speedball.jpg'
+	},
+	{
+		title: 'Margarita',
+		ingredients: ['taquila', 'lime juice', 'sprite'],
+		amounts: [1, 2, 0], // amount of 0 means it will be added manually
+		imgFile: 'margarita.jpg'
+	},
+	{
+		title: 'Polarbear',
+		ingredients: ['vodka', 'lime juice', 'sprite'],
+		amounts: [1, 2, 0], // amount of 0 means it will be added manually
+		imgFile: 'margarita.jpg'
+	},
+	{
+		title: 'Hot Spot',
+		ingredients: ['vodka', 'taquila', 'tabasco'],
+		amounts: [1, 2, 0], // amount of 0 means it will be added manually
+		imgFile: 'margarita.jpg'
+	},
+	{
+		title: 'Cool Kid',
+		ingredients: ['taquila', 'vodka', 'sprite'],
+		amounts: [1, 2, 0], // amount of 0 means it will be added manually
+		imgFile: 'margarita.jpg'
+	},
+]

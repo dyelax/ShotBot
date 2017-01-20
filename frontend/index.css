@@ -1,0 +1,81 @@
+@font-face {
+	font-family: 'Raleway';
+	src: url('fonts/Raleway-ExtraLight.ttf');
+}
+@font-face {
+	font-family: 'Latin-Roman-Slant';
+	src: url('fonts/lmromanslant10-regular.otf');
+}
+
+body {
+	background-color: rgb(20,20,20);
+	
+	padding-bottom: 30px;
+}
+
+h3 {
+	font-family: 'Raleway';
+/*	font-size: 1.3em;*/
+	margin: 10px 0 5px 0;
+}
+p {
+	font-family: 'Latin-Roman-Slant';
+	font-size: 0.8em;
+}
+
+
+.drink {
+	display: block;
+	
+	width: 100%;
+    padding-top: 100%; /* 1:1 Aspect Ratio */
+    position: relative;
+	
+	margin-top: 30px;
+	
+	border-radius: 15px;
+}
+
+.drinkText {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	border-radius: 0 0 15px 15px;
+	
+	padding: 0 15px;
+	
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+}
+
+#unabomber {
+	background: url(images/unabomber.jpg);
+	background-position: center;
+	background-size: cover;
+}
+#speedball {
+	background: url(images/speedball.jpeg);
+	background-position: center;
+	background-size: cover;
+}
+#margarita {
+	background: url(images/margarita.jpg);
+	background-position: center;
+	background-size: cover;
+}
+#polarbear {
+	background: url(images/polarbear.jpg);
+	background-position: center;
+	background-size: cover;
+}
+#hotSpot {
+	background: url(images/hotSpot.jpg);
+	background-position: center;
+	background-size: cover;
+}
+#coolKid {
+	background: url(images/coolKid.jpg);
+	background-position: center;
+	background-size: cover;
+}

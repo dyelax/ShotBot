@@ -1,0 +1,363 @@
+151 proof rum
+7-up
+Absinthe
+Absolut citron
+Absolut Kurant
+Absolut Peppar
+Absolut Vodka
+Advocaat
+Aftershock
+Agave syrup
+Ale
+Allspice
+Almond flavoring
+Almond
+Amaretto
+Angelica Root
+Angostura Bitters
+Anis
+Anise
+Anisette
+Aperol
+Apfelkorn
+Apple Brandy
+Apple Cider
+Apple Juice
+Apple schnapps
+Apple
+Applejack
+Apricot Brandy
+Apricot
+Aquavit
+Bacardi Limon
+Baileys irish cream
+Banana liqueur
+Banana rum
+Banana
+Barenjager
+Beef bouillon
+Beer
+Benedictine
+Berries
+Bitter lemon
+Bitters
+Black Pepper
+Black rum
+Black Sambuca
+Blackberries
+Blackberry Brandy
+Blackberry schnapps
+Blackcurrant cordial
+Blackcurrant squash
+Blended Whiskey
+Blue Curacao
+Blueberries
+Blueberry schnapps
+Bourbon
+Brandy
+Bread
+Brown Sugar
+Butter
+Butterscotch schnapps
+Cachaca
+Calvados
+Campari
+Canadian whisky
+Candy
+Cantaloupe
+Carbonated soft drink
+Carbonated water
+Cardamom
+Carrot
+Cayenne pepper
+Celery salt
+Chambord raspberry liqueur
+Champagne
+Cherries
+Cherry Brandy
+Cherry cola
+Cherry Heering
+Cherry juice
+Cherry liqueur
+Cherry
+Chocolate ice-cream
+Chocolate liqueur
+Chocolate milk
+Chocolate syrup
+Chocolate
+Cider
+Cinnamon schnapps
+Cinnamon
+Citrus vodka
+Clamato juice
+Clove
+Cloves
+Club Soda
+Coca-Cola
+Cocktail onion
+Cocoa Powder
+Coconut liqueur
+Coconut Milk
+Coconut rum
+Coconut syrup
+Coffee brandy
+Coffee liqueur
+Coffee
+Cognac
+Cointreau
+Cola
+Condensed milk
+Coriander
+Corn syrup
+Cornstarch
+Corona
+Cranberries
+Cranberry Juice
+Cranberry liqueur
+Cranberry vodka
+Cream of Coconut
+Cream
+Creme De Banane
+Creme de Cacao
+Creme de Cassis
+Creme de Noyaux
+Crown Royal
+Crystal light
+Cucumber
+Cumin seed
+Curacao
+Cynar
+Daiquiri mix
+Dark Creme de Cacao
+Dark Rum
+demerara sugar
+Dr. Pepper
+Drambuie
+Dry Vermouth
+Dubonnet blanc
+Dubonnet Rouge
+Egg White
+Egg Yolk
+Egg
+Eggnog
+Erin Cream
+Espresso
+Everclear
+Fanta
+Firewater
+Food coloring
+Forbidden Fruit
+Frangelico
+Fruit juice
+Fruit punch
+Fruit
+Galliano
+Gatorade
+Gin
+Ginger Ale
+Ginger beer
+Ginger
+Godiva liqueur
+Gold rum
+Gold Tequila
+Goldschlager
+Grain Alcohol
+Grand Marnier
+Grape juice
+Grape soda
+Grapefruit Juice
+Grapes
+Green Chartreuse
+Green Creme de Menthe
+Grenadine
+Guava juice
+Guinness stout
+Half-and-half
+Hawaiian punch
+Hazelnut liqueur
+Heavy cream
+Honey
+Hoopers Hooch
+Hot Chocolate
+Hot Damn
+Hpnotiq
+Ice-Cream
+Ice
+Iced tea
+Irish cream
+Irish Whiskey
+Jack Daniels
+Jello
+Jim Beam
+Johnnie Walker
+Kahlua
+Key Largo Schnapps
+Kirschwasser
+Kiwi liqueur
+Kiwi
+Kool-Aid
+Kummel
+Lager
+Lemon Juice
+Lemon Peel
+Lemon soda
+Lemon vodka
+Lemon-lime soda
+lemon
+Lemonade
+Light Cream
+Light Rum
+Lime juice cordial
+Lime Juice
+Lime liqueur
+Lime vodka
+Lime
+Limeade
+Madeira
+Malibu Rum
+Mandarine napoleon
+Mango
+Maple syrup
+Maraschino cherry juice
+Maraschino Cherry
+Maraschino Liqueur
+Margarita mix
+Maui
+Melon liqueur
+Melon vodka
+Mezcal
+Midori melon liqueur
+Milk
+Mint syrup
+Mint
+Mountain Dew
+Nutmeg
+Nuts
+Olive
+Orange Bitters
+Orange Curacao
+Orange Juice
+Orange liqueur
+Orange Peel
+Orange rum
+Orange Soda
+Orange vodka
+Orange
+Orgeat Syrup
+Ouzo
+Papaya juice
+Papaya
+Passion fruit juice
+Passion fruit syrup
+Passoa
+Peach brandy
+Peach juice
+Peach liqueur
+Peach Nectar
+Peach Schnapps
+Peach Vodka
+Peachtree schnapps
+Peppermint Schnapps
+Pepsi Cola
+Pernod
+Peychaud bitters
+Pina colada mix
+Pineapple Juice
+Pineapple vodka
+Pineapple-orange-banana juice
+Pineapple
+Pink lemonade
+Pisang Ambon
+Pisco
+Plums
+Port
+Powdered Sugar
+Purple passion
+Raisins
+Raspberry cordial
+Raspberry Jam
+Raspberry liqueur
+Raspberry schnapps
+Raspberry syrup
+Raspberry Vodka
+Red Wine
+Ricard
+Root beer schnapps
+Root beer
+Rum
+Rumple Minze
+Rye whiskey
+Sake
+Salt
+Sambuca
+Sarsaparilla
+Schnapps
+Schweppes Lemon
+Schweppes Russchian
+Scotch
+Sherbet
+Sherry
+Sloe Gin
+Soda Water
+Sour Apple Pucker
+Sour Mix
+Southern Comfort
+Soy Milk
+Soy Sauce
+Spiced Rum
+Sprite
+Strawberries
+Strawberry juice
+Strawberry liqueur
+Strawberry Schnapps
+Strawberry syrup
+Sugar Syrup
+Sugar
+Sunny delight
+Surge
+Swedish punsch
+Sweet and Sour
+Sweet Vermouth
+Tabasco Sauce
+Tang
+Tawny port
+Tea
+Tennessee whiskey
+Tequila rose
+Tequila
+Tia Maria
+Tomato Juice
+Tonic Water
+Triple Sec
+Tropicana
+Tuaca
+Vanilla extract
+Vanilla Ice-Cream
+Vanilla schnapps
+Vanilla syrup
+Vanilla vodka
+Vanilla
+Vermouth
+Vodka
+Water
+Watermelon schnapps
+Whipped Cream
+Whipping Cream
+Whiskey
+Whisky
+White chocolate liqueur
+White Creme de Menthe
+White grape juice
+White port
+White Rum
+White Wine
+Wild Turkey
+Wildberry schnapps
+Wine
+Worcestershire Sauce
+Wormwood
+Yeast
+Yellow Chartreuse
+Yoghurt
+Yukon Jack
+Zima
