@@ -7,6 +7,9 @@
 	
     <title>ShotBot</title>
 	
+<!--	JQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	
 <!--	Bootstrap   -->
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -23,6 +26,7 @@
 <body>
 	<div class="container">
 		<div id="drinks">
+<!--
 			<div class="row">
 				<div class="col-xs-4">
 					<div class="drink" id="unabomber">
@@ -51,36 +55,25 @@
 					</div>
 				</div>
 			</div>
-			
-			<div class="row">
-				<div class="col-xs-4">
-					<div class="drink" id="polarbear">
-						<div class="drinkText">
-							<h3 class="drinkName">Polarbear</h3>
-							<p class="drinkDescription">Vodka, lime juice and sprite.</p>
-						</div>
-					</div>
-				</div>
-				
-				<div class="col-xs-4">
-					<div class="drink" id="hotSpot">
-						<div class="drinkText">
-							<h3 class="drinkName">Hot Spot</h3>
-							<p class="drinkDescription">Vodka, tequila and tabasco.</p>
-						</div>
-					</div>
-				</div>
-				
-				<div class="col-xs-4">
-					<div class="drink" id="coolKid">
-						<div class="drinkText">
-							<h3 class="drinkName">Cool Kid</h3>
-							<p class="drinkDescription">Taquila, vodka and sprite.</p>
-						</div>
-					</div>
-				</div>
-			</div>
+-->
 		</div>
 	</div>
 </body>
 </html>
+
+<script src="scripts/drinkDB.js"></script>
+<script src="scripts/pour_drinks.js"></script>
+<script src="scripts/load_drinks.js"></script>
+
+<script>
+	// ingredients must be in order that they appear on ShotBot. Indeces greater than num_slots will be assumed to be manually added.
+	var numSlots = 6;
+	var ingredients = ['vodka', 'taquila', 'triple sec', 'gin', 'lime juice', 'sprite', 'tabasco'];
+//	console.log(getDrinksForIngredients(ingredients));
+//	drinkNames = ['Hot Spot', 'Unabomber']
+//	console.log(getDrinks(drinkNames))
+	
+//	drinks = getDrinksForIngredients(ingredients)
+	
+	setup(ingredients, numSlots);
+</script>

@@ -48,34 +48,3 @@ p {
 	background-color: rgba(0, 0, 0, 0.5);
 	color: white;
 }
-
-#unabomber {
-	background: url(images/unabomber.jpg);
-	background-position: center;
-	background-size: cover;
-}
-#speedball {
-	background: url(images/speedball.jpeg);
-	background-position: center;
-	background-size: cover;
-}
-#margarita {
-	background: url(images/margarita.jpg);
-	background-position: center;
-	background-size: cover;
-}
-#polarbear {
-	background: url(images/polarbear.jpg);
-	background-position: center;
-	background-size: cover;
-}
-#hotSpot {
-	background: url(images/hotSpot.jpg);
-	background-position: center;
-	background-size: cover;
-}
-#coolKid {
-	background: url(images/coolKid.jpg);
-	background-position: center;
-	background-size: cover;
-}
