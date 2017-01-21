@@ -9,7 +9,6 @@ function getDrinksForIngredients(ingredients) {
 			var ingredient = drink_ingredients[j];
 
 			if (ingredients.indexOf(ingredient) == -1) {
-				console.log(ingredient)
 				drinkGood = false;
 			}
 		}
