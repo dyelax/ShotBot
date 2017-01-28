@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	
+	
+    <title>ShotBot</title>
+	
+<!--	JQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	
+<!--	Bootstrap   -->
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	
+	<link type="text/css" href="styles/general.css" rel="stylesheet"></link>
+	<link type="text/css" href="styles/editIngredients.css" rel="stylesheet"></link>
+</head>
+<body>
+	<div class="container">
+		<div id="header">
+			<h1>Edit Ingredients</h1>
+			<p>If you have an ingredient, but need to mix it manually, set its slot to 0.</p>
+		</div>
+		
+		<div id="ingredientsTable">
+<!--
+			<table class="table">
+				<tr class="headerRow">
+					<th>Ingredient</th>
+					<th>Slot</th>
+				</tr>
+				<tr class="ingredientRow">
+					<td class="ingredientCell">Vodka</td>
+					<td class="slotNumCell">
+						<input type="tel" />
+					</td>
+				</tr>
+			</table>
+-->
+		</div>
+		<div class="buttons">
+			<div class="row">
+				<div class="col-xs-12">
+					<a href="index.html" id="saveButton" onclick="saveIngredients()"><h3>Save Ingredients</h3></a>
+<!--					<a href="#" id="saveButton" onclick="saveIngredients()"><h3>Save Ingredients</h3></a>-->
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+
+<script src="scripts/general.js"></script>
+<script src="scripts/drinkDB.js"></script>
+<script src="scripts/editIngredients.js"></script>
+
+<script>
+	ingredients = JSON.parse(localStorage.getItem('ingredients'));
+	console.log(ingredients);
+	populateTable(ingredients);
+</script>

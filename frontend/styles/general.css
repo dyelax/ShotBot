@@ -1,0 +1,47 @@
+@font-face {
+	font-family: 'Raleway';
+	src: url('fonts/Raleway-ExtraLight.ttf');
+}
+@font-face {
+	font-family: 'Latin-Roman-Slant';
+	src: url('fonts/lmromanslant10-regular.otf');
+}
+
+body {
+	background-color: rgb(20,20,20);
+}
+
+h1, h3 {
+	font-family: 'Raleway';
+/*	font-size: 1.3em;*/
+}
+p {
+	font-family: 'Latin-Roman-Slant';
+	font-size: 0.8em;
+}
+
+.buttons {
+	margin: 30px 0;
+}
+.buttons a {
+	display: block;
+	
+	width: 100%;
+	height: 50px;
+	text-align: center;
+
+	color: rgba(255, 255, 255, 0.3);
+/*	background-color: rgb(190, 3, 0);*/
+/*		background-color: mediumseagreen;*/
+
+	border-radius: 15px;
+	border: solid 1px rgba(255, 255, 255, 0.3);
+}
+.buttons a:hover {
+	text-decoration: none;
+}
+
+.buttons a h3 {
+	margin: 0;
+	line-height: 50px;
+}
