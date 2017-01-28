@@ -1,4 +1,6 @@
 function getDrinksForIngredients(ingredients) {
+	ingredientNamesLower = Object.keys(ingredients).toLowerCase();
+	
 	var drinks = [];
 	for (var i = 0; i < DRINK_DB.length; i++) {
 		var drink = DRINK_DB[i];
@@ -6,9 +8,9 @@ function getDrinksForIngredients(ingredients) {
 
 		var drinkGood = true;
 		for (var j = 0; j < drink_ingredients.length; j++) {
-			var ingredient = drink_ingredients[j];
+			var ingredient = drink_ingredients[j].toLowerCase();
 
-			if (ingredients.indexOf(ingredient) == -1) {
+			if (ingredientNamesLower.indexOf(ingredient) == -1) {
 				drinkGood = false;
 			}
 		}
@@ -23,9 +25,7 @@ function getDrinksForIngredients(ingredients) {
 
 function getDrinks(drinkNames) {
 	// lowercase all drink names
-	drinkNamesLower = drinkNames.map(function(str) {
-		return str.toLowerCase()
-	})
+	drinkNamesLower = drinkNames.toLowerCase();
 	
 	var drinks = [];
 	for (var i = 0; i < DRINK_DB.length; i++) {
@@ -37,10 +37,6 @@ function getDrinks(drinkNames) {
 	}
 	
 	return drinks;
-}
-
-String.prototype.capitalizeFirstLetter = function() {
-    return this.charAt(0).toUpperCase() + this.slice(1);
 }
 
 function generateHTML(drinks) {
@@ -78,7 +74,7 @@ function generateHTML(drinks) {
 	return html;
 }
 
-function setup(ingredients, numSlots) {
+function setup(ingredients) {
 	drinks = getDrinksForIngredients(ingredients);
 	
 	$('#drinks').html(generateHTML(drinks));
@@ -87,6 +83,6 @@ function setup(ingredients, numSlots) {
 		drinkNum = parseInt($(this).attr('id'));
 		drink = drinks[drinkNum];
 		
-		pourDrink(drink, ingredients, numSlots);
+		pourDrink(drink, ingredients);
 	})
 }

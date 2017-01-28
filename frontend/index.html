@@ -20,8 +20,9 @@
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	
-	
-	<link type="text/css" href="index.css" rel="stylesheet"></link>
+
+	<link type="text/css" href="styles/general.css" rel="stylesheet"></link>
+	<link type="text/css" href="styles/index.css" rel="stylesheet"></link>
 </head>
 <body>
 	<div class="container">
@@ -57,23 +58,28 @@
 			</div>
 -->
 		</div>
+		<div class="buttons">
+			<div class="row">
+				<div class="col-xs-12">
+					<a href="editIngredients.html" id="ingredientsButton"><h3>Edit Ingredients</h3></a>
+				</div>
+			</div>
+		</div>
 	</div>
 </body>
 </html>
 
+<!--Particle-->
+<script type="text/javascript" src="//cdn.jsdelivr.net/particle-api-js/5/particle.min.js">
+</script>
+
+<script src="scripts/general.js"></script>
 <script src="scripts/drinkDB.js"></script>
 <script src="scripts/pour_drinks.js"></script>
 <script src="scripts/load_drinks.js"></script>
 
 <script>
-	// ingredients must be in order that they appear on ShotBot. Indeces greater than num_slots will be assumed to be manually added.
-	var numSlots = 6;
-	var ingredients = ['vodka', 'taquila', 'triple sec', 'gin', 'lime juice', 'sprite', 'tabasco'];
-//	console.log(getDrinksForIngredients(ingredients));
-//	drinkNames = ['Hot Spot', 'Unabomber']
-//	console.log(getDrinks(drinkNames))
-	
-//	drinks = getDrinksForIngredients(ingredients)
-	
-	setup(ingredients, numSlots);
+	ingredients = JSON.parse(localStorage.getItem('ingredients'));
+	console.log(ingredients);
+	setup(ingredients)
 </script>
